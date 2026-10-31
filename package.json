@@ -1,0 +1,13 @@
+{
+  "name": "analog-drift",
+  "version": "0.1.0",
+  "description": "A model of analog oscillator pitch instability for Web Audio: 1/f drift, thermal wander, FM jitter, warm-up and per-voice tolerance, plus a PolyBLEP oscillator.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node tests/core.test.mjs && node tests/worklet.test.mjs",
+    "test:browser": "node tests/browser.test.cjs"
+  },
+  "devDependencies": { "playwright": "^1.40.0" }
+}
